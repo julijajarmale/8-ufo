@@ -7,14 +7,13 @@
     <title>UFO</title>
 </head>
 <body>
-    <main style="background-color: pink; width: 80%;
-    margin-left: 10%; margin-top: 10%; ">
-        <div>
-           <h1>404</h1>
-           <p>Page not found</p>
+    <main style="background-color: white; width: 80%; margin-left: 20%; margin-top: 10%; display: inline-block;">
+        <div style="width: 40%; float: left;">
+           <h1 style="font-size: 100px; font-weight: bold; font-style: italic; color: blue">404</h1>
+           <p style="font-size: 30px;">Page not found</p>
            <a href="#">Go to home</a>
         </div>
-        <img src="./ufo.jpg" alt="Nuotrauka">
+        <img style:="width: 60%; float: right;" src="./ufo.jpg" alt="Nuotrauka">
     </main>
 </body>
 </html>
@@ -29,4 +28,22 @@
     margin-top: 0%
     margin-right: 0%
     margin-bottom: 0%
+
+    Elementu atvaizdavimo budai:
+    display: block;  daugumos elementu pradine reiksme - elementrai krenta stulpeliu
+    display: inline;  vos keletas - elementai krenta eilute su galimybe uzsilenkti i kita eilute jei netilpo
+    display: none;   vos keletas - elementai nesimato/nerodomi
+    display: inline-block; elementai krenta i eilute, bet jei visas netelpa, tai visas krenta i nauja eilute ir niekada nebuna platesnis nei tevinis elementas
+
+    Priverstinis elementu nustumimas (horizontalus) nurodyta kryptimi:
+    float: left;
+    float: right;
+
+    Paprastas (standartizuodas) budas kurti universalia struktua (Sventa Marija:
+    display: inline-block;
+    width- 100%;
+    float: left;
+
+
 -->
+
